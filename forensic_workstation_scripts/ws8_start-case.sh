@@ -26,7 +26,7 @@ fi
 echo "Started log listener for case $1 on $(date)" | nc localhost 4444
 
 # start the file listener
-`./start-file-listener.sh $1` &
+`./ws8_start-file-listener.sh $1` &
 
 
 
