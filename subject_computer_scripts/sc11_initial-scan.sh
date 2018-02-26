@@ -15,7 +15,7 @@ fi
 
 # did you specify a listener IP?
 if [ "$1" != "" ] ; then
-   source setup-client.sh $1
+   source sc9_setup-client.sh $1
 fi
 
 # now collect some info!
